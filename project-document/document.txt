@@ -1,0 +1,26 @@
+== Project setup ==
+
+1) open command-promp (CMD)
+
+2) go to folder directory
+
+== after that run below command
+
+3) composer install
+
+== then after that run below command
+
+4) php artisan migrate
+
+== then after that run below command
+
+5) php artisan serv 
+   
+  copy url and run your brouse 
+  (http://127.0.0.1:8000)
+
+== then after that run below command   
+
+6) php artisan tinker
+   Next Command : use App\User;
+   Next Command : factory(User::class, 5000)->create();
